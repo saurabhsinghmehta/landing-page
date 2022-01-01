@@ -31,10 +31,10 @@ console.log(x);
  let markWeight = 95;
  let markHeight = 1.88;
  let johnWeight = 85;
- let johnHeight = 1.76;
+ let johnHeight = 1.72;
  
  
  const BMIMark = markWeight / markHeight ** 2;
- const BMIJohn = johnWeight / johnHeight ** 2;
+ const BMIJohn = johnWeight / johnHeight ** 2.5;
  const markHigherBMI = BMIMark > BMIJohn;
  console.log(BMIMark, BMIJohn, markHigherBMI);
